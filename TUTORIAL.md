@@ -11,11 +11,7 @@
 ## Step 1: Verify Input Text
 Check input/input.txt contains:
 ```
-Hello World! 
-This is a sample text to demonstrate the Caesar cipher encryption.
-The quick brown fox jumps over the lazy dog.
-1234567890
-!@#$%^&*()
+Hello World! This is a sample text to demonstrate the Caesar cipher encryption. The quick brown fox jumps over the lazy dog. 1234567890 !@#$%^&*()
 ```
 
 ## Step 2: Run the Script
@@ -38,6 +34,22 @@ Check output/output_decrypted.txt. This file should:
 * Contain text identical to the input
 * Match the original formatting
 * Have preserved all special characters
+
+## View Input and Output Files
+1. Check Input File Content:
+```powershell
+Get-Content input/input.txt
+```
+
+2. Check Encrypted File Content:
+```powershell
+Get-Content output/output_encrypted.txt
+```
+
+3. Check Decrypted File Content:
+```powershell
+Get-Content output/output_decrypted.txt
+```
 
 ## Example Output
 Original text: "Hello World!"
@@ -74,10 +86,16 @@ output/
 ```
 
 ## Validation Checklist
-- [ ] Input file contains test text
-- [ ] Script runs without errors
-- [ ] Encrypted file is created
-- [ ] Decrypted file matches input
-- [ ] Special characters are preserved
-- [ ] All screenshots are clear and properly referenced
+- [✅] Input file contains test text
+- [✅] Script runs without errors
+- [✅] Encrypted file is created
+- [✅] Decrypted file matches input
+- [✅] Special characters are preserved
+- [✅] All screenshots are clear and properly referenced
+
+## Security Notice
+✅ This code is provided for educational purposes. Always scan downloaded files before running them:
+1. Visit [VirusTotal](https://www.virustotal.com/gui/home/upload)
+2. Upload the files
+3. Review the security analysis
 ```
