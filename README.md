@@ -10,10 +10,10 @@ This project implements the classic Caesar cipher encryption method in PHP. It p
 
 ## Features
 
-- • Text encryption using Caesar cipher shift technique
-- • Text decryption capabilities
-- • File input/output handling
-- • Command line interface
+-  Text encryption using Caesar cipher shift technique
+-  Text decryption capabilities
+-  File input/output handling
+-  Command line interface
 
 ## Installation
 
@@ -45,9 +45,9 @@ php main_caesarcipher.php
 
 ## Implementation Details
 
-- • Language: PHP
-- • Input Processing: Text file handling
-- • Output: Separate files for encrypted and decrypted text
+-  Language: PHP
+-  Input Processing: Text file handling
+-  Output: Separate files for encrypted and decrypted text
 
 ## Security Notice
 
@@ -72,5 +72,5 @@ Website: https://boderebe.com
 
 ## Acknowledgments
 
-- • Created as part of cybersecurity coursework
-- • Based on classical cryptography principles
+-  Created as part of cybersecurity coursework
+-  Based on classical cryptography principles
