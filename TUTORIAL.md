@@ -1,4 +1,4 @@
-# TUTORIAL.md
+# Caesar Cipher Tutorial and Testing Guide
 
 ```markdown
 # Caesar Cipher Tutorial and Testing Guide
@@ -44,6 +44,19 @@ Original text: "Hello World!"
 Encrypted (shift by 3): "Khoor Zruog!"
 Decrypted: "Hello World!"
 
+## Screenshots
+### Input File
+![Step 1 - Input File](images/input.png)
+
+### Running the Script
+![Step 2 - Running Script](images/running.png)
+
+### Encrypted Output
+![Step 3 - Encrypted Output](images/encrypted.png)
+
+### Decrypted Output 
+![Step 4 - Decrypted Output](images/decrypted.png)
+
 ## Troubleshooting
 * Ensure PHP is properly installed
 * Check file permissions
@@ -66,4 +79,5 @@ output/
 - [ ] Encrypted file is created
 - [ ] Decrypted file matches input
 - [ ] Special characters are preserved
+- [ ] All screenshots are clear and properly referenced
 ```
