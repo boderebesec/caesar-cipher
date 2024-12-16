@@ -93,9 +93,9 @@ output/
 - [✅] Special characters are preserved
 - [✅] All screenshots are clear and properly referenced
 
-## Security Notice
+## Security Notice & Verification
 ✅ This code is provided for educational purposes. Always scan downloaded files before running them:
-1. Visit [VirusTotal](https://www.virustotal.com/gui/home/upload)
+1. Visit VirusTotal | https://www.virustotal.com/gui/home/upload
 2. Upload the files
 3. Review the security analysis
 ```
